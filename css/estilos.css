@@ -27,7 +27,6 @@ font-family: 'Comfortaa', cursive;
 padding: 20px;
 }
 
-<<<<<<< HEAD
 .topnav a:hover {
   background-color: #29909a;
   text-decoration: none;
@@ -35,11 +34,11 @@ padding: 20px;
 
 .textpoke{
   color: #fff900;
-=======
+}
+
 .poke{
 overflow-y: hidden;
 opacity: 0.5;
 transition: all 0.5s ease-in-out;
 height: 91vh;
->>>>>>> e70463fb2447633a159a1201a2150fec2dd15c14
 }
