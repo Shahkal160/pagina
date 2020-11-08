@@ -6,6 +6,10 @@ font-family: 'Comfortaa', cursive;
   overflow-x: hidden;
 }
 
+.row{
+  background-color: #000000;
+}
+
 .topnav{
     overflow: hidden;
   background-color: #30abb7;
@@ -43,23 +47,25 @@ transition: all 0.5s ease-in-out;
 height: 91vh;
 }
 
-<<<<<<< HEAD
 .poke:hover{
 opacity: 1;
 }
 
 .dialga{
-background-image: url("../img/link.jpg");
+background-image: url("../img/02.png");
 background-size: cover;
 }
+
 .arceus{
-background-image: url("../img/mario.jpg");
+background-image: url("../img/01.png");
 background-size: cover;
 }
+
 .palkia{
-background-image: url("../img/donkey.jpg");
+background-image: url("../img/03.png");
 background-size: cover;
-=======
+}
+
 .iconomenu{
   width: 50px;
   padding-top: 5px;
@@ -109,5 +115,4 @@ background-size: cover;
   padding-top: 5px;
   margin-right: 10px;
   float: right;
->>>>>>> a09c61955d7ae83ab815c1d2f4662a4b9eb7033b
 }
