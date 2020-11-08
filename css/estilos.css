@@ -42,3 +42,20 @@ opacity: 0.5;
 transition: all 0.5s ease-in-out;
 height: 91vh;
 }
+
+.poke:hover{
+opacity: 1;
+}
+
+.dialga{
+background-image: url("../img/link.jpg");
+background-size: cover;
+}
+.arceus{
+background-image: url("../img/mario.jpg");
+background-size: cover;
+}
+.palkia{
+background-image: url("../img/donkey.jpg");
+background-size: cover;
+}
