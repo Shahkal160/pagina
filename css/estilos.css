@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin:0px;
+}
+
+.titulo{
+  background-color:#e5e5e5;
+  padding:50px;
+  text-align:center;"
+  height:50px;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+
+.azul {
+  background-color:#2196F3;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+  height: 20vh;
+}
+
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color:#4CAF50;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
