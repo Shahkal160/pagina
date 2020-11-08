@@ -23,3 +23,10 @@ font-family: 'Comfortaa', cursive;
 .menutexto{
 padding: 20px;
 }
+
+.poke{
+overflow-y: hidden;
+opacity: 0.5;
+transition: all 0.5s ease-in-out;
+height: 91vh;
+}
