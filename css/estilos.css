@@ -8,18 +8,30 @@ font-family: 'Comfortaa', cursive;
 
 .topnav{
     overflow: hidden;
-  background-color: red;
+  background-color: #30abb7;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+
   text-align: center;
   text-decoration: none;
   font-size: 17px;
 }
+.boton{
+    color: #f2f2f2;
+}
 
 .menutexto{
 padding: 20px;
+}
+
+.topnav a:hover {
+  background-color: #29909a;
+  text-decoration: none;
+}
+
+.textpoke{
+  color: #fff900;
 }
